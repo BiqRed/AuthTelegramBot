@@ -91,4 +91,5 @@ function validate_response($data, $auth_at, $user_id, $username, $first_name, $l
     $expected_hash = md5($hash_string);
     return $expected_hash === $received_hash;
 }
-?>```
+?>
+```
