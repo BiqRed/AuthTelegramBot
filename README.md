@@ -28,13 +28,13 @@ SECRET_KEY=your_secret_key
 ```
 
 # Running the Bot
-#### pythonenv
+#### pythonenv (python >3.8)
 ```bash
 pip3 install -r requirements.txt
 python3 bot.py
 ```
 
-#### poetry
+#### poetry (python 3.12)
 ```bash
 poetry init
 python3 bot.py
