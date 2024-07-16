@@ -22,8 +22,10 @@ This bot serves as an authorization mechanism similar to Google OAuth but operat
 1. Set `REDIRECT_URL` (config.py) and `SECRET_KEY` in the bot's configuration file.
 #### Env File `(.env)`:
 
-BOT_TOKEN = "xxxx:xxxxxxxxxx"
-SECRET_KEY = "your_secret_key"
+```dotenv
+BOT_TOKEN=xxxx:xxxxxxxxxx
+SECRET_KEY=your_secret_key
+```
 
 ### Authorization Flow:
 
