@@ -27,6 +27,19 @@ BOT_TOKEN=xxxx:xxxxxxxxxx
 SECRET_KEY=your_secret_key
 ```
 
+# Running the Bot
+#### pythonenv
+```bash
+pip3 install -r requirements.txt
+python3 bot.py
+```
+
+#### poetry
+```bash
+poetry init
+python3 bot.py
+```
+
 ### Authorization Flow:
 
 1. User clicks the bot link and opens the bot in Telegram.
